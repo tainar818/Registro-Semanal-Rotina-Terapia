@@ -36,16 +36,24 @@
       color: #3d332b;
     }
 
+    .header-card {
+      display: block;
+    }
+
     .logo-wrap {
       display: flex;
       justify-content: center;
-      margin-bottom: 10px;
+      margin-bottom: 14px;
     }
 
     .logo {
-      width: 210px;
-      max-width: 80%;
+      width: 190px;
+      max-width: 75%;
       height: auto;
+      display: block;
+    }
+
+    .header-content {
       display: block;
     }
 
@@ -219,6 +227,11 @@
         font-size: 1.4rem;
       }
 
+      .logo {
+        width: 170px;
+        max-width: 85%;
+      }
+
       .week-table {
         font-size: 0.82rem;
       }
@@ -232,11 +245,15 @@
 </head>
 <body>
   <main class="container">
-    <section class="card">
+    <section class="card header-card">
       <div class="logo-wrap">
-<img class="logo" src="https://tainar818.github.io/Registro-Semanal-Rotina-Terapia/logo.png" alt="Logo Taína Rodrigues Psicóloga" />
+        <img class="logo" src="https://tainar818.github.io/Registro-Semanal-Rotina-Terapia/logo.png" alt="Logo Taína Rodrigues Psicóloga" />
+      </div>
+
+      <div class="header-content">
         <h1>Registro Semanal de Rotina</h1>
-      <p class="description">Preencha de forma simples. Não precisa ficar perfeito. A ideia é observar como foi sua semana e perceber pequenos pontos que podem ser ajustados.</p>
+        <p class="description">Preencha de forma simples. Não precisa ficar perfeito. A ideia é observar como foi sua semana e perceber pequenos pontos que podem ser ajustados.</p>
+      </div>
 
       <div class="grid">
         <div>
